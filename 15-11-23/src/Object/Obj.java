@@ -21,7 +21,7 @@ public class Obj {
         // a=4;b=5;
         // System.out.println(a+b);
 
-
+        
         // using class 
 
         Cl cl = new Cl();    //Cl is a class and cl is reference variable Cl() is object
