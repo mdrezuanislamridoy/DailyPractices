@@ -1,3 +1,5 @@
+////7. Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title.
+
 package OOPs_Again.Inheritance.Practice;
 
 class Person {
@@ -40,8 +42,8 @@ class Emmployee extends Person {
 
 public class q6 {
     public static void main(String[] args) {
-        Emmployee e = new Emmployee("Ridoy", "Babu", 1818, "programmer");
-        System.out.println(e.getFirstName());
+        Emmployee e = new Emmployee("Ridoy ", "Babu", 1818, "programmer");
+        System.out.print(e.getFirstName());
         System.out.println(e.getLastName());
         System.out.println(e.getEmployeeId());
     }
