@@ -3,38 +3,40 @@
 package OOPs_Again.Inheritance.Practice;
 
 class BankAccount{
-    int PresentAm;
-    BankAccount(int PresentAm){
-        this.PresentAm= PresentAm;
+    int balance;
+    BankAccount(int balance){
+        this.balance=balance;
     }
-    int deposit(int dip){
-        return PresentAm = PresentAm+dip;
+    int deposit(int dep){
+        return balance+=dep;
     }
-    void withdraw(double amount) {
-        if (PresentAm >= amount) {
-            PresentAm -= amount;
+    void withdraw(int amnt){
+        if (balance>amnt) {
+            balance-=amnt;
         } else {
-            System.out.println("Insufficient balance");
+            System.out.println("invalid amount");
         }
-
-        }
-        double getBalance() {
-        return PresentAm;
+        
+    }
+    int getBalance(){
+        return balance;
     }
 }
+
 class SavingsAccount extends BankAccount{
 
-    SavingsAccount(int PresentAm) {
-        super(PresentAm);
+    SavingsAccount(int balance) {
+        super(balance);
     }
-    public void withdraw(double amount) {
-        if (getBalance() - amount < 100) {
-            System.out.println("Minimum balance of $100 required!");
+    @Override
+    void withdraw(int amnt) {
+        if (getBalance()-amnt>100) {
+            super.withdraw(amnt);
         } else {
-            super.withdraw(amount);
+            System.out.println("insuficiend fund");
         }
     }
-    
+
 }
 public class q5 {
     public static void main(String[] args) {
