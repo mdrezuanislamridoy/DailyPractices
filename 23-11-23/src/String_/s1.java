@@ -11,5 +11,7 @@ public class s1 {
         // short cut to represent string.. easy to use
         String ssr = "Hello ssrr";
         System.out.println(ssr);
+
+        
     }
 }

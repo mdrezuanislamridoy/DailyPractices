@@ -10,7 +10,7 @@ public class equals_in_java {
         System.out.println(a.equals(b));
         System.out.println(a.equals(c));
         System.out.println(a.equals(d));
-        System.out.println(a.equalsIgnoreCase(d));
+        System.out.println(a.equalsIgnoreCase(d)); // it will ignore the case of String
 
         System.out.println();
 
