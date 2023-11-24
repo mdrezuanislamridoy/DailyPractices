@@ -12,6 +12,8 @@ public class s1 {
         String ssr = "Hello ssrr";
         System.out.println(ssr);
 
-        
+
+        System.out.println(str.isEmpty()); // to check string is empty or not
+        System.out.println(ssr.isBlank()); // it is similler as is empty
     }
 }
