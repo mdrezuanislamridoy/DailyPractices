@@ -2,7 +2,10 @@ package SetInterfaces;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
+
+
 
 public class Si1 {
     public static void main(String[] args) {
@@ -11,7 +14,8 @@ public class Si1 {
         // duplicates are not allowed
         // Insertion order is not preserved
         // Random order will Work in memory
-
+        //No Indexing . Indexes Randomly
+        
         HashSet<Object> sh= new HashSet<>();
         sh.add("hash");
         sh.add("setting");
@@ -22,5 +26,16 @@ public class Si1 {
 
         System.out.println(sh);
         
+        for (Object object : sh) {
+            System.out.println(object);
+        }
+
+        System.out.println();
+
+        Iterator<Object> ite = sh.iterator();
+
+        while (ite.hasNext()) {
+            System.out.println(ite.next());
+        }
     }
 }
