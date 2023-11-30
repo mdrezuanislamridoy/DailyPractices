@@ -19,5 +19,10 @@ public class HM1 {
         System.out.println(hm.get(11));
         System.out.println(hm.get(84));
         System.out.println(hm.get(55));
+
+        System.out.println();
+        hm.remove(11);
+        System.out.println(hm);
+        System.out.println(hm.containsKey(84));
     }
 }
