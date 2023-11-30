@@ -24,5 +24,13 @@ public class HM1 {
         hm.remove(11);
         System.out.println(hm);
         System.out.println(hm.containsKey(84));
+        System.out.println(hm.size());
+        System.out.println(hm.isEmpty());
+        System.out.println(hm.keySet());
+        System.out.println(hm.values());
+        hm.clear();
+        System.out.println(hm);
+
+        
     }
 }
