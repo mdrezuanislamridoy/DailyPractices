@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Arry",
+            "request": "launch",
+            "mainClass": "ArrQue.Arry",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "ArrQue.Q1",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "ArrQue.Q2",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "RevLOrS",
+            "request": "launch",
+            "mainClass": "ArrQue.RevLOrS",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStr",
+            "request": "launch",
+            "mainClass": "ArrQue.ReverseStr",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "Expp",
+            "request": "launch",
+            "mainClass": "ExamPrep.Expp",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNum",
+            "request": "launch",
+            "mainClass": "ExamPrep.PrimeNum",
+            "projectName": "03-12-23_678b6ae3"
+        },
+        {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "app",
+            "projectName": "03-12-23_678b6ae3"
+        }
+    ]
+}
