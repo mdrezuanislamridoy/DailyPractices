@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahim Billah's Birthday</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #000000;
+            
+        }
+
+        #container {
+            text-align: center;
+            position: relative;
+           
+            width: 100%;
+        }
+        .ballon{
+            width: 100%;
+            margin-top: 20px;
+            
+            
+        }
+        .div{
+            margin-top: -150px;
+            z-index: 11111111;
+
+        }
+        .ballon img{
+            width: 100%;
+        }
+
+        
+        #left-bd{
+            width: 150px;
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            rotate: 35deg;
+        }
+        #right-bd{
+            width: 150px;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            rotate: -35deg;
+        }
+        #title {
+            margin-top: 20px;
+            font-size: 3em;
+            color: #ffffff;
+            margin-bottom: 20px;
+            animation: bounce 1s infinite;
+            text-shadow: 2px 2px 2px aqua,6px 6px 6px violet;
+        }
+
+        #image-section {
+            margin-bottom: 20px;
+        }
+        #image-section img{
+            width: 300px;
+            border-radius: 50%;
+            border: 3px solid aqua;
+        }
+
+        .bb{
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+        }
+        .bb img{
+            width: 100%;
+            margin-bottom: -30px;
+           
+        }
+       
+        #quote {
+            font-size: 1.5em;
+            color: rgb(0, 255, 183);
+            text-shadow: 1px 1px 2px white;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #333;
+            
+            height: 120px;
+            
+        }
+        
+        
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div class="ballon">
+            <img src="balloonpng.parspng.com-7.webp" alt="">
+        </div>
+        <div class="div">
+            <div class="png-bd"><img src="png.monster-786-370x247.webp" alt=""></div>
+        <div id="title">Fahim Bilai 😺</div>
+        <div id="image-section">
+            <!-- Add your friend's image here -->
+            <img src="Billu.jpg" alt="Fahim Billah" width="200">
+        </div>
+        <div id="quote">শুভ জন্মদিন, প্রিয় বিল্লু <br>
+        <b>BUET চাঞ্চ না পাইলে তোর খবর আছে</b><br>
+        <i>কি হয় হোক তোক চাঞ্চ পাইতেই হবে</i><br>
+        </div>
+        <img id="left-bd" src="birthday-clipart-transparent-23.png" alt="">
+        <img id="right-bd" src="birthday-clipart-transparent-23.png" alt="">
+        </div>
+
+        <br><br>
+        <div class="bb">
+            <img src="bb.png" alt="">
+        </div>
+    </div>
+
+    
+    <script>
+        // You can add more JavaScript for additional interactivity or animations
+    </script>
+</body>
+</html>
