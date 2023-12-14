@@ -9,28 +9,30 @@ import java.util.Set;
 public class NumDuble {
     public static void main(String[] args) {
         try {
-            List<Integer> li= userInt();
+            List<Integer> li = userInt();
             ck(li);
             System.out.println("No Matches");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
-    static List<Integer> userInt(){
+
+    static List<Integer> userInt() {
         Scanner sc = new Scanner(System.in);
 
-        List<Integer> ll= new ArrayList<Integer>();
+        List<Integer> ll = new ArrayList<Integer>();
         System.out.println("How many number do you want to check");
 
         int i = sc.nextInt();
         for (int j = 0; j < i; j++) {
-            int num= sc.nextInt();
+            int num = sc.nextInt();
             ll.add(num);
         }
         return ll;
     }
-    static void ck(List<Integer> number) throws UniqueException{
-        Set<Integer> st= new HashSet<>();
+
+    static void ck(List<Integer> number) throws UniqueException {
+        Set<Integer> st = new HashSet<>();
 
         for (Integer integer : number) {
             if (st.contains(integer)) {
@@ -41,8 +43,9 @@ public class NumDuble {
         System.out.println(st);
     }
 }
-class UniqueException extends Exception{
-    UniqueException(String s){
+
+class UniqueException extends Exception {
+    UniqueException(String s) {
         super(s);
     }
 }
