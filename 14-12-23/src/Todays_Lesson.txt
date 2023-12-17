@@ -1,0 +1,4 @@
+Exception 
+
+Thread -> run > sleep > Join > start > syncronised
+Runnable -> anonymous class with lambda > Runnable with thread
